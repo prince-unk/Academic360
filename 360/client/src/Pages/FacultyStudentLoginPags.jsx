@@ -23,6 +23,7 @@ const FacultyStudentLoginPags = () => {
     const [isStudentLoading, setIsStudentLoading] = useState(false)
 
 
+
     const history = useHistory()
 
     useEffect(() => {
@@ -97,6 +98,7 @@ const FacultyStudentLoginPags = () => {
                 <div className="col-md-6">
                     <div className="row m-5">
                         <div className="col-md-8 m-auto border" style={{ backgroundColor: "white", borderRadius: "1.2rem", padding: "1rem 1rem 0rem 1rem" }}>
+
                             <div>
                                 <h3 className="text-center ">FACULTY</h3>
                                 <form noValidate onSubmit={facultyFormHandler}>
@@ -177,8 +179,22 @@ const FacultyStudentLoginPags = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="row m-5">
+                        <div className="col-md-8 m-auto border" style={{ backgroundColor: "white", borderRadius: "1.2rem", padding: "1rem 1rem 0rem 1rem" }}>
+
+                            <div>
+                                <h3 className="text-center ">ADMIN</h3>
+                                <a href="/adminLogin" type="submit" className="btn btn-info btn-block">Admin Login </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
+
         </div>
     )
 }
