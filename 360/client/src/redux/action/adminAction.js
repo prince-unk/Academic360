@@ -8,7 +8,7 @@ import {
 
 // const url = "http://localhost:5000"
 
-const url = "https://academic360-server.onrender.com/"
+const url = "https://academic360-server.onrender.com"
 
 
 const setAdmin = (data) => {

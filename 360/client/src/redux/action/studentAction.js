@@ -5,7 +5,7 @@ import { SET_STUDENT, SET_ERRORS_HELPER, SET_ERRORS, STUDENT_UPDATE_PASSWORD, SE
 
 // const url = "http://localhost:5000"
 
-const url = "https://academic360-server.onrender.com/"
+const url = "https://academic360-server.onrender.com"
 
 export const setChatHistory = (data) => {
     return {
