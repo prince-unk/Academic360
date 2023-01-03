@@ -10,7 +10,7 @@ const setFaculty = (data) => {
     }
 }
 
-const url = "http://localhost:5000"
+const url = "http://localhost:5000" || "https://academic360-server.onrender.com"
 
 // const url = "https://academic360-server.onrender.com"
 
