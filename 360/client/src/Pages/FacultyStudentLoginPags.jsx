@@ -184,7 +184,7 @@ const FacultyStudentLoginPags = () => {
 
                             <div>
                                 <h3 className="text-center ">ADMIN</h3>
-                                <a href="/adminLogin" type="submit" className="btn btn-info btn-block">Admin Login </a>
+                                <a href="/adminlogin" type="submit" className="btn btn-info btn-block">Admin Login </a>
                                 <span class="sr-only">Loading...</span>
                                 <br />
                             </div>
