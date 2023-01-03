@@ -97,7 +97,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path='/' component={FacultyStudentLoginPags} />
-          <Route exact path='/adminLogin' component={LoginPage} />
+          <Route exact path='/adminlogin' component={LoginPage} />
           <Route exact path='/home' component={Home} />
           <Route exact path='/student/updateProfile' component={StudentUpdateProfile} />
           <Route exact path="/studentDetails" component={StudentDetails} />
